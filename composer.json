@@ -1,0 +1,27 @@
+{
+    "name": "ilias-daniel/brain-sso-auth",
+    "authors": [
+        {
+            "name": "ilias",
+            "email": "iliasdragneel@gmail.com"
+        }
+    ],
+    "description": "BRAIN SSO Authentication Application for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iliasdragneel\\BrainSsoAuth\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iliasdragneel\\BrainSsoAuth\\BrainSsoAuthServiceProvider"
+            ]
+        }
+    }
+}
