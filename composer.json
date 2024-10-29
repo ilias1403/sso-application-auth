@@ -71,7 +71,7 @@
     "repositories": {
         "iliasdaniel/brainsso": {
             "type": "path",
-            "url": "/var/www/html/laravel-package/packages/iliasdaniel/brainsso",
+            "url": "/var/www/html/sso-application-auth/packages/iliasdaniel/brainsso",
             "options": {
                 "symlink": true
             }

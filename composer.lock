@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da7ecf05a9db0785597f7b8e8ba79282",
+    "content-hash": "7588d86a7dcadee082f7d097c07b7f78",
     "packages": [
         {
             "name": "brick/math",
@@ -1059,8 +1059,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "/var/www/html/laravel-package/packages/iliasdaniel/brainsso",
-                "reference": "0963c3aa3c2dac9e5ed185262772620a4a4061d5"
+                "url": "/var/www/html/sso-application-auth/packages/iliasdaniel/brainsso",
+                "reference": "2c31435a4fbafe67e0645736a016680a0db27804"
             },
             "require": {
                 "php": "^7.3|^8.0"
@@ -1095,13 +1095,12 @@
             ],
             "authors": [
                 {
-                    "name": "Author Name",
-                    "email": "author@email.com",
-                    "homepage": "http://author.com"
+                    "name": "ilias",
+                    "email": "iliasdaniel1403@gmail.com"
                 }
             ],
-            "description": ":package_description",
-            "homepage": "https://github.com/iliasdaniel/brainsso",
+            "description": "Laravel Application to interact with SSO with main server using Laravel Passport",
+            "homepage": "https://github.com/ilias1403/sso-application-auth",
             "keywords": [
                 "Brainsso",
                 "Laravel"

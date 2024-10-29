@@ -1545,6 +1545,7 @@ class ComposerStaticInite5fbbe6137dc77bcd5b6646b5dd75b52
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Iliasdaniel\\BrainSso\\Controllers\\Auth\\SsoAuthenticationController' => __DIR__ . '/..' . '/iliasdaniel/brainsso/src/Controllers/Auth/SsoAuthenticationController.php',
         'Iliasdaniel\\Brainsso\\Brainsso' => __DIR__ . '/..' . '/iliasdaniel/brainsso/src/Brainsso.php',
         'Iliasdaniel\\Brainsso\\BrainssoServiceProvider' => __DIR__ . '/..' . '/iliasdaniel/brainsso/src/BrainssoServiceProvider.php',
         'Iliasdaniel\\Brainsso\\Facades\\Brainsso' => __DIR__ . '/..' . '/iliasdaniel/brainsso/src/Facades/Brainsso.php',

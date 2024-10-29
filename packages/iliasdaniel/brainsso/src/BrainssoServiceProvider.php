@@ -22,6 +22,14 @@ class BrainssoServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
+
+        // Load the package routes
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+
+        // Publish the configuration file
+        $this->publishes([
+            __DIR__.'/../config/brainsso.php' => config_path('brainsso.php'),
+        ], 'brainsso-config');
     }
 
     /**
@@ -37,6 +45,11 @@ class BrainssoServiceProvider extends ServiceProvider
         $this->app->singleton('brainsso', function ($app) {
             return new Brainsso;
         });
+
+        // Merge package config with the app config
+        // $this->mergeConfigFrom(
+        //     __DIR__.'/../config/brainsso.php', 'brainsso'
+        // );
     }
 
     /**
