@@ -1,0 +1,41 @@
+{
+    "name": "iliasdaniel/brainsso",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/iliasdaniel/brainsso",
+    "keywords": ["Laravel", "Brainsso"],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iliasdaniel\\Brainsso\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Iliasdaniel\\Brainsso\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iliasdaniel\\Brainsso\\BrainssoServiceProvider"
+            ],
+            "aliases": {
+                "Brainsso": "Iliasdaniel\\Brainsso\\Facades\\Brainsso"
+            }
+        }
+    }
+}
